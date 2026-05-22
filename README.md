@@ -44,7 +44,7 @@
 
 ## 📅 Daily Update
 
-- UTC Date: 2026-05-21
-- Quote: Simplicity is the soul of efficiency. — Austin Freeman
+- UTC Date: 2026-05-22
+- Quote: 先让它跑起来，再让它跑得漂亮。
 
 <!-- DAILY_UPDATE_END -->
