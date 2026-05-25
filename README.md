@@ -44,7 +44,7 @@
 
 ## 📅 Daily Update
 
-- UTC Date: 2026-05-24
-- Quote: 代码如诗，工程如战场。
+- UTC Date: 2026-05-25
+- Quote: Great models need better systems, not just bigger GPUs.
 
 <!-- DAILY_UPDATE_END -->
