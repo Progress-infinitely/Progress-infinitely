@@ -1,4 +1,4 @@
-name: Daily README update
+name: Daily heartbeat
 
 on:
   schedule:
@@ -18,46 +18,17 @@ jobs:
         with:
           ref: main
 
-      - name: Update daily section
+      - name: Append heartbeat
         run: |
-          python - <<'PY'
-          from datetime import datetime, timezone
-          from pathlib import Path
-          import random
-
-          readme = Path("README.md")
-          content = readme.read_text(encoding="utf-8")
-
-          start = "<!-- DAILY_UPDATE_START -->"
-          end = "<!-- DAILY_UPDATE_END -->"
-          if start not in content or end not in content:
-              content = content.rstrip() + f"\n\n---\n\n{start}\n{end}\n"
-
-          quotes = [
-              "Talk is cheap. Show me the code. — Linus Torvalds",
-              "Programs must be written for people to read, and only incidentally for machines to execute. — Harold Abelson",
-              "The best way to predict the future is to implement it.",
-              "Simplicity is the soul of efficiency. — Austin Freeman",
-              "代码如诗，工程如战场。",
-              "先让它跑起来，再让它跑得漂亮。",
-              "Great models need better systems, not just bigger GPUs.",
-              "RAG is easy to demo and hard to productionize.",
-          ]
-
-          today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-          quote = random.choice(quotes)
-          block = f"{start}\n\n## 📅 Daily Update\n\n- UTC Date: {today}\n- Quote: {quote}\n\n{end}"
-
-          before = content.split(start, 1)[0]
-          after = content.split(end, 1)[1]
-          readme.write_text(before + block + after, encoding="utf-8")
-          PY
+          DATE=$(date -u '+%Y-%m-%d')
+          mkdir -p .github
+          echo "${DATE}" >> .github/heartbeat.log
 
       - name: Commit and push changes
         run: |
           DATE=$(date -u '+%Y-%m-%d')
           git config user.name "Progress-infinitely"
           git config user.email "102594894+Progress-infinitely@users.noreply.github.com"
-          git add README.md
-          git commit -m "docs: daily update ${DATE}"
+          git add .github/heartbeat.log
+          git commit -m "chore: heartbeat ${DATE}"
           git push origin main

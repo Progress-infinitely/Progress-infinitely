@@ -13,7 +13,6 @@
 
 - **LLM / RAG Experiments** — Exploring retrieval-augmented generation pipelines with vector databases and practical LLM application patterns.
 - **Agent Systems Practice** — Building agent workflows with LangGraph-style orchestration, tool use, and multi-step reasoning loops.
-- **Fine-tuning & RL for LLMs** — Learning and experimenting with supervised fine-tuning, GRPO-style optimization, and model behavior alignment.
 
 ---
 
@@ -37,14 +36,3 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
----
-
-<!-- DAILY_UPDATE_START -->
-
-## 📅 Daily Update
-
-- UTC Date: 2026-05-25
-- Quote: Great models need better systems, not just bigger GPUs.
-
-<!-- DAILY_UPDATE_END -->
