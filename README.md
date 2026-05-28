@@ -3,7 +3,6 @@
 
 ## 👋 Hi, I'm Lelo
 
-🎓 Incoming MSc DCAI @ HKUST(GZ) (Sept 2026)  
 🔭 Focused on: LLM Fine-tuning · RAG · RL for LLMs · Agent Systems  
 🛠️ Stack: Python · PyTorch · LangGraph · Milvus · FastAPI  
 
