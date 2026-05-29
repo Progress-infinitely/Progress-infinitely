@@ -17,7 +17,7 @@
 
 ## 🤝 Open Source Contributions
 
-- **[CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)** ([PR #3595](https://github.com/router-for-me/CLIProxyAPI/pull/3595)) — Fixed request-aware tool name restoration for Claude Code compatibility in the Amp response rewriter.
+- **[CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)** ([PR #3595](https://github.com/router-for-me/CLIProxyAPI/pull/3595), released in [v7.1.29](https://github.com/router-for-me/CLIProxyAPI/releases/tag/v7.1.29)) — Fixed request-aware tool name restoration for Claude Code compatibility in the Amp response rewriter.
 
 ---
 
