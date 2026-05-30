@@ -3,9 +3,9 @@
 
 ## Hi, I'm Lelo 👋
 
-AI/NLP graduate student building production-grade LLM systems — not wrapper apps.
+AI/NLP graduate student focused on LLM application engineering.
 
-I design and ship **RAG pipelines**, **Text-to-SQL data agents**, and **tool-calling workflows** with LangGraph, FastAPI, and vector databases. My projects go beyond "call API, return answer" — they include hybrid retrieval, reranking, knowledge graphs, SSE streaming, and real infrastructure (Milvus, MongoDB, Neo4j, MinIO).
+Building RAG pipelines, Text-to-SQL data agents, and tool-calling workflows with LangGraph, FastAPI, and vector databases. Comfortable with hybrid retrieval, reranking, knowledge graphs, SSE streaming, and production infrastructure.
 
 ---
 
@@ -24,14 +24,6 @@ Natural language → SQL data analysis agent for tourism business. Dual-mode eng
 Upload PDF/Markdown docs → query with natural language. Advanced RAG pipeline with HyDE, vector search, reranking, and Reciprocal Rank Fusion (RRF). Supports multi-turn conversations with session history.
 
 **Tech:** Python · FastAPI · LangGraph · Milvus · MongoDB · MinIO · MinerU
-
----
-
-### [Merchant Brain](https://github.com/Progress-infinitely/Merchant-Brain) — Product Doc Q&A
-
-RAG system for product manual Q&A. Combines vector search, HyDE, knowledge graph (Neo4j), and MCP web search with BGE-M3 embedding and BGE reranker. Processes PDFs with VLM-based image description.
-
-**Tech:** Python · FastAPI · LangGraph · Milvus · Neo4j · BGE-M3 · DashScope MCP
 
 ---
 
