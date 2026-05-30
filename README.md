@@ -3,9 +3,7 @@
 
 ## Hi, I'm Lelo 👋
 
-AI/NLP graduate student focused on LLM application engineering.
-
-Building RAG pipelines, Text-to-SQL data agents, and tool-calling workflows with LangGraph, FastAPI, and vector databases. Comfortable with hybrid retrieval, reranking, knowledge graphs, SSE streaming, and production infrastructure.
+Building LLM application systems — RAG pipelines, Text-to-SQL data agents, and tool-calling workflows with LangGraph, FastAPI, and vector databases. Working with hybrid retrieval, reranking, knowledge graphs, SSE streaming, and production infrastructure.
 
 ---
 
